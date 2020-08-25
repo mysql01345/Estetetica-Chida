@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Registro nuevo cliente
+		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+
+		<div class="wrapper" style="background-image: url('images/bg-registration-form-1.jpg');">
+			<div class="inner">
+				<div class="image-holder">
+					<img src="images/registration-form-1.jpg" alt="">
+				</div>
+				<form method="post" name="frmGuardarEmpleado" action="Guardar_Empleado">
+					<h3>Registrate </h3>
+					<div class="form-group">
+
+						<input type="text" placeholder="Apellido Paterno" class="form-control" id ="paterno" name="paterno">
+						
+						<input type="text" placeholder="Apellido Materno" class="form-control"  id ="materno" name="materno">
+
+					</div>
+
+						 <input type="text" placeholder="Nombre(s)" class="form-control" id="nombre" name="nombre"> 
+						 
+                                                <div class="form-wrapper">
+                                                    <input type="text" placeholder="Usuario" class="form-control"  id="usuario" name="usuario">
+                                                    <i class="zmdi zmdi-account"></i>
+                                                </div>
+                                                 
+                                                   <div class="form-wrapper">
+                                                    <input type="number" placeholder="privilegio" class="form-control" id="privilegio"  name="privilegio">
+
+                                                </div>
+                                                 <div class="form-wrapper">
+                                                     <input type="password" placeholder="Contraseña" class="form-control" id="contrasena" name="contrasena">
+                                                    <i class="zmdi zmdi-lock"></i>
+                                                </div>
+                                                 
+                                                    <div class="form-wrapper">
+                                                    <select name="Empleado" id="Empleado" class="form-control" >
+							<option value="" disabled selected>Seleccione el tiipo de empleado que es</option>
+							<option value="1">Gerente</option>
+							<option value="2">Estilista</option>
+							<option value="3">Ayudante</option>
+                                                    </select>
+
+                                                 
+                                        <button type="submit" name="entrar" id="entrar" value="Entrar" class="btn_3">
+                                          Registrar
+                                        </button>
+				</form>
+			</div>
+		</div>
+		
+	</body>
+        <!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
