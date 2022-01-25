@@ -1,0 +1,3 @@
+# Estetetica-Chida
+
+Proyecto escolar
